@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/css/uikit.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit-icons.min.js"></script>  
+
     <title>Stunning Guacamole</title>
 </head> 
 <header> 
@@ -17,5 +18,21 @@
         <a href="" uk-search-icon></a>
         <input class="uk-search-input" type="search" placeholder="Location" aria-label="Enter Location">
     </form>
+    <nav uk-dropnav id="nav">
+        <ul class="uk-subnav">
+            <li>
+                <a href="#">Pick Your Price<span uk-drop-parent-icon></span></a>
+                <div class="uk-dropdown">
+                    <ul class="uk-nav uk-dropdown-nav">
+                        <li id="cheap"><a href="#">$</a></li>
+                        <li id="moderate"><a href="#">$$</a></li>
+                        <li id="expensive"><a href="#">$$$</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
 </body>
 </html>
