@@ -1,12 +1,17 @@
 header {
     padding: 40px;
     text-align: center;
-    background: #a9bda1;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #FF6347;
+    background: #6B8E23;
+    
+    }
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 350%;
     }
 
 body {
     text-align: center
-    
-}    
+    }    
