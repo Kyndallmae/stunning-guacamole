@@ -14,4 +14,17 @@ header {
 
 body {
     text-align: center
+     
     }    
+
+#searchBar {
+    font-family: 'Courier New', Courier, monospace;
+}    
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #6B8E23;
+    color: #FFD700
+}
+
