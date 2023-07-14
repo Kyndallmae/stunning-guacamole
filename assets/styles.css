@@ -1,5 +1,5 @@
 header {
-    padding: 40px;
+    padding: 25px;
     text-align: center;
     background: #6B8E23;
     
@@ -12,6 +12,12 @@ header {
     font-size: 350%;
     }
 
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFD700;
+    font-size: 150%;
+}
+
 body {
     text-align: center
      
@@ -21,10 +27,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }    
 
+
+
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    background-color: #6B8E23;
-    color: #FFD700
+    color: #E9967A;
 }
 
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #6B8E23;
+    color: #FFD700;
+    margin-top: auto;
+  }
