@@ -25,9 +25,13 @@ body {
 
 #searchBar {
     font-family: 'Courier New', Courier, monospace;
+    
 }    
 
-
+.uk-modal-dialog {
+    border: 5px dotted #E9967A;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
 
 h2 {
     font-family: 'Courier New', Courier, monospace;
