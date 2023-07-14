@@ -1,0 +1,44 @@
+header {
+    padding: 25px;
+    text-align: center;
+    background: #6B8E23;
+    
+    }
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 350%;
+    }
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFD700;
+    font-size: 150%;
+}
+
+body {
+    text-align: center
+     
+    }    
+
+#searchBar {
+    font-family: 'Courier New', Courier, monospace;
+}    
+
+
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #E9967A;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #6B8E23;
+    color: #FFD700;
+    margin-top: auto;
+  }
