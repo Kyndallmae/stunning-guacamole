@@ -1,5 +1,8 @@
 var searchBarEL = $('#searchBar');
 var locationInput = $('#searchInput');
+var cheap = $('#cheap');
+var moderate = $('#moderate');
+var expensive = $('#expensive');
 
 
 function handleFormSubmit (event) {
@@ -7,10 +10,27 @@ function handleFormSubmit (event) {
     console.log(locationInput[0].value) 
 }
 
-searchBarEL.on('submit', handleFormSubmit
-)
+function getApi() {
+    var requestUrl = ' '
+  
+    fetch(requestUrl)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        console.log(data)
+    })} 
 
 
+
+
+
+
+
+searchBarEL.on('submit', handleFormSubmit)
+
+
+getApi();
 
 
 
