@@ -1,20 +1,18 @@
-var searchBarEL = document.getElementById ('#searchBar');
-var locationInput = document.querySelector ('.uk-search-input').value;
+var searchBarEL = $('#searchBar');
+var locationInput = $('#searchInput');
 
-
-console.log(locationInput);
-
-locationInput.addEventListener('click', function () {
-    if (locationInput === 0) {
-        return
-    }
-    else (console.log(locationInput))
-})
 
 function handleFormSubmit (event) {
     event.preventDefault();
-
+    console.log(locationInput[0].value) 
 }
+
+searchBarEL.on('submit', handleFormSubmit
+)
+
+
+
+
 
 //use the url
 //fetch request response.then
