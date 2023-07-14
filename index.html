@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/css/uikit.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/css/uikit.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit-icons.min.js"></script>  
-    <link rel="stylesheet" type="text/css" href="./assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit-icons.min.js"></script>
+
     <title>Stunning Guacamole</title>
 </head>
 <header>
@@ -19,23 +19,36 @@
     <h2>Enter Your Location</h2>
     <form class="uk-search uk-search-default" id="searchBar">
         <a href="" uk-search-icon></a>
-        <input class="uk-search-input" type="search" placeholder="Location" aria-label="Enter Location">
+        <input class="uk-search-input" id="searchInput" type="search" placeholder="Location"
+            aria-label="Enter Location">
     </form>
-    <nav uk-dropnav id="nav">
-        <ul class="uk-subnav">
-            <li>
-                <a href="#">Pick Your Price<span uk-drop-parent-icon></span></a>
-                <div class="uk-dropdown">
-                    <ul class="uk-nav uk-dropdown-nav">
-                        <li id="cheap"><a href="#">$</a></li>
-                        <li id="moderate"><a href="#">$$</a></li>
-                        <li id="expensive"><a href="#">$$$</a></li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-    </nav>
+
+    <button class="uk-button uk-button-default uk-margin-small-right" type="button"
+        uk-toggle="target: #modal-example">Pick Your Price!</button>
+
+    <div id="modal-example" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <h2 class="uk-modal-title">Select an option below:</h2>
+            <div class="uk-dropdown">
+                <ul class="uk-nav uk-dropdown-nav">
+                    <li id="cheap"><a href="#">$</a></li>
+                    <li id="moderate"><a href="#">$$</a></li>
+                    <li id="expensive"><a href="#">$$$</a></li>
+                </ul>
+            </div>
+
+            <p class="uk-text-right">
+                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                <button class="uk-button uk-button-primary" type="button">Save</button>
+            </p>
+        </div>
+    </div>  
+      <footer id="footer">Have your guac and eat it too!</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="./assets/script.js"></script>
+
 </body>
-<footer id="footer">Have your guac and eat it too!</footer>
+
 </html>
+
 </html>
