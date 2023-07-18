@@ -2,15 +2,15 @@ header {
     padding: 25px;
     text-align: center;
     background: #6B8E23;
-    
-    }
+
+}
 
 #title {
     font-family: 'Courier New', Courier, monospace;
     color: #FFD700;
     font-weight: bold;
     font-size: 350%;
-    }
+}
 
 h3 {
     font-family: 'Courier New', Courier, monospace;
@@ -21,17 +21,17 @@ h3 {
 body {
     text-align: center
      
-    }    
+}
 
 #searchBar {
     font-family: 'Courier New', Courier, monospace;
     
-}    
+}
 
 .uk-modal-dialog {
     border: 5px dotted #E9967A;
     box-shadow: 10px 10px 5px #aaaaaa;
-  }
+}
 
 h2 {
     font-family: 'Courier New', Courier, monospace;
@@ -45,4 +45,4 @@ footer {
     background: #6B8E23;
     color: #FFD700;
     margin-top: auto;
-  }
+}
