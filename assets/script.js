@@ -22,7 +22,7 @@ async function gettTacos(location) {
   const requestUrl = 'https://places.googleapis.com/v1/Text:search'
   var request = {
     textQuery: 'tacos in' + location,
-    priceLevels: ['INEXPENSIVE', 'MODERATE', 'EXPENSIVE']
+    priceLevels: []
   };
   var result = await fetch(requestUrl, {
     method: "POST",
@@ -51,5 +51,22 @@ function createPlaceCard(place) {
 }
 
 searchBarEL.on('submit', handleFormSubmit)
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetchCatImage()
+  btnClick();
+})
+
+function fetchCatImage(){
+  let image = document.getElementById("cat-image")
+  fetch('https://api.thecatapi.com/v1/images/search')
+  .then(resp => resp.json())
+  .then(json => image.src = json[0].url)
+}
+
+function btnClick(){
+  let button = document.getElementById("new-cat-btn")
+  button.addEventListener("click", fetchCatImage)
+}
 
 
