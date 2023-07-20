@@ -2,7 +2,6 @@ header {
     padding: 25px;
     text-align: center;
     background: #6B8E23;
-
 }
 
 #title {
@@ -49,12 +48,19 @@ h2 {
 }
 
 footer {
-    padding: 20px;
+    padding: 8px;
     text-align: center;
     background: #6B8E23;
     color: #FFD700;
     margin-top: auto;
 }
+
+.picture img {
+    width: 8%;
+    border-style: solid;
+    border-width: 1px;
+    flex: 0 0 300px;
+}    
 
 @media screen and (max-width: 768px) {
 
