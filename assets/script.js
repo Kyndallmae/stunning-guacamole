@@ -22,8 +22,9 @@ async function gettTacos(location) {
   const requestUrl = 'https://places.googleapis.com/v1/Text:search'
   var request = {
     textQuery: 'tacos in' + location,
-    priceLevels: ['INEXPENSIVE', 'MODERATE', 'EXPENSIVE']
+    priceLevels: []
   };
+
   var result = await fetch(requestUrl, {
     method: "POST",
     headers: {

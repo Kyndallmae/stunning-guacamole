@@ -2,12 +2,15 @@ header {
     padding: 25px;
     text-align: center;
     background: #6B8E23;
-
+    background-image: url("./Images/Avvo Banner.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #title {
     font-family: 'Courier New', Courier, monospace;
-    color: #FFD700;
+    color: orangered;
     font-weight: bold;
     font-size: 350%;
 }
@@ -24,7 +27,7 @@ header {
 
 h3 {
     font-family: 'Courier New', Courier, monospace;
-    color: #FFD700;
+    color: orangered;
     font-size: 150%;
 }
 
@@ -55,6 +58,7 @@ footer {
     color: #FFD700;
     margin-top: auto;
 }
+
 
 @media screen and (max-width: 768px) {
 
