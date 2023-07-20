@@ -1,12 +1,15 @@
 header {
     padding: 25px;
     text-align: center;
-    background: #6B8E23;
+    background-image: url("./Images/AvvoBanner.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #title {
     font-family: 'Courier New', Courier, monospace;
-    color: #FFD700;
+    color: orangered;
     font-weight: bold;
     font-size: 350%;
 }
@@ -23,7 +26,7 @@ header {
 
 h3 {
     font-family: 'Courier New', Courier, monospace;
-    color: #FFD700;
+    color: orangered;
     font-size: 150%;
 }
 
@@ -44,22 +47,44 @@ body {
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: #E9967A;
+    color: goldenrod;
 }
 
 footer {
     padding: 8px;
     text-align: center;
-    background: #6B8E23;
-    color: #FFD700;
+    color: orangered;
     margin-top: auto;
+    flex-direction: row;
 }
+
+#cat-image {
+    width: 15%;
+    border-style: solid;
+    border-width: 1px;
+    flex: 0 0 300px;
+}
+
+#tacoPlaces .uk-card {
+    background-color: goldenrod;
+    border: 5px dotted black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+
+#tacoPlaces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .picture img {
     width: 8%;
     border-style: solid;
     border-width: 1px;
     flex: 0 0 300px;
+    flex-wrap: inherit;
 }    
 
 @media screen and (max-width: 768px) {
