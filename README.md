@@ -13,6 +13,10 @@ We utilized a combination of VS Code, JavaScript, CSS , and CSS framework UIKit.
 ## Future Development
 For future development, we look to add an option for users to save their favorite restaurants. Also, we want to add a feature for users to leave a review and, add a map to show the locations near them.
 
+
+## Motivation
+Our motivation was that we all love tacos and millions of people do also and there is no application that specifically allows to find restaurants that serve tacos.
+
 ## Success
 We succeeded as a team to creating a working application and the application working.
 
