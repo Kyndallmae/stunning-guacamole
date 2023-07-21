@@ -36,3 +36,5 @@ THEN I can enter my location
 WHEN I hit enter
 THEN locations are generated and displayed that matches the selected criteria
 
+![Screenshot of Application](/assets/Images/screenshot.png)
+
