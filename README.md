@@ -1,28 +1,34 @@
 # stunning-guacamole
 
-## User Story
+## About.
+This application allows users to search for restaurants that serve tacos anywhere in the United States
 
-```
+## Description.
+The application allows the user to enter the city of their choice to have a list of restaurants that serve tacos near that location.
+
+## Challenges
+Some challenges we faced were difficulties with committing changes and merging branches as well as creating the JavaScript together. Weather was also a factor as we faced a record setting heat wave and it affected technical connections.
+We utilized a combination of VS Code, JavaScript, CSS , and CSS framework UIKit. For API’s, we utilized Google Places and Random Cat Generator.
+
+## Future Development
+For future development, we look to add an option for users to save their favorite restaurants. Also, we want to add a feature for users to leave a review and, add a map to show the locations near them.
+
+## Success
+We succeeded as a team to creating a working application and the application working.
+
+## Contributors
+Antonio Casana, Kyndall Maddoux, Mandy Douglas and Rosa Valdez.
+
+
+## User Story
 AS A avid eater of tacos
 I WANT to find the best taco places near me, 
 SO THAT I can eat them and be happy.
 
 ## Acceptance Criteria
-
-```
 GIVEN I am looking for a local taco shop
 WHEN I open the app/link/website
-THEN I am presented with a series of shop criteria
-WHEN I am prompted for a location
-THEN I can enter my zip code
-WHEN I am prompted for a price range 
-THEN I can click to select a price
-WHEN all the prmpts are answered
+THEN I can enter my location
+WHEN I hit enter
 THEN locations are generated and displayed that matches the selected criteria
 
-<!--Who is doing what: 
-HTML - Kyndall
-CSS - Mandy
-JS - not until the HTML and CSS are Finished
-API research (Yelp fusion API?, Google Maps etc.) - Antonio
-CSS Frameworks - Rosa
