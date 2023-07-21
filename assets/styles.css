@@ -87,6 +87,11 @@ footer {
     flex-wrap: inherit;
 }    
 
+h6 {
+    text-align: left;
+    font-size: x-small;
+}
+
 @media screen and (max-width: 768px) {
 
     main,
